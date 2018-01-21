@@ -10,3 +10,5 @@ for(i=1;i<=n;i++)
 c=i*5;
 printf("%d",c);
 }
+return 0;
+}
