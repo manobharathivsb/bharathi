@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void) 
 {
-	int a,b,c;
+	int a[50],b[100],c[10];
 	printf("enter the number\n");
 	scanf("%d%d%d",&a,&b,&c);
 	if((a>b)&&(a>c))
