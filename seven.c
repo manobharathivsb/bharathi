@@ -1,13 +1,15 @@
 #include <stdio.h>
 int main(void) 
 {
-int n,i,c;
-scanf("%d",&n);
-printf("enter the value\n");
-for(i=0;i<=n;i++)
+int i;
+scanf("%d",&i);
+	if(i%7==0)
+	{
+printf("%d is yes",i);
+	}
+	else
 {
-	c=i*7;
-printf("%d",c);
+	printf("%d is no",i);
 }
-	return 0;
+return 0;
 }
